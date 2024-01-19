@@ -1,0 +1,1 @@
+./tool/generate_asset_metadata.sh

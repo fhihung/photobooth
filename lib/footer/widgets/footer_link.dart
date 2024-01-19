@@ -99,22 +99,22 @@ class FooterCodelabLink extends StatelessWidget {
   }
 }
 
-class FooterHowItsMadeLink extends StatelessWidget {
-  const FooterHowItsMadeLink({
-    super.key,
-  });
+// class FooterHowItsMadeLink extends StatelessWidget {
+//   const FooterHowItsMadeLink({
+//     super.key,
+//   });
 
-  @override
-  Widget build(BuildContext context) {
-    final l10n = context.l10n;
+//   @override
+//   Widget build(BuildContext context) {
+//     final l10n = context.l10n;
 
-    return FooterLink(
-      link:
-          'https://medium.com/flutter/how-its-made-i-o-photo-booth-3b8355d35883',
-      text: l10n.footerHowItsMadeLinkText,
-    );
-  }
-}
+//     return FooterLink(
+//       link:
+//           'https://medium.com/flutter/how-its-made-i-o-photo-booth-3b8355d35883',
+//       text: l10n.footerHowItsMadeLinkText,
+//     );
+//   }
+// }
 
 class FooterTermsOfServiceLink extends StatelessWidget {
   const FooterTermsOfServiceLink({

@@ -89,6 +89,22 @@ class PhotoboothPreview extends StatelessWidget {
               .add(const PhotoCharacterToggled(character: Assets.dino));
         },
       ),
+      // CharacterIconButton(
+      //   key: const Key('photoboothView_phenikaa_characterIconButton'),
+      //   icon: const AssetImage('assets/images/phenikaa_icon.png'),
+      //   label: l10n.dinoButtonLabelText,
+      //   isSelected: state.isDinoSelected,
+      //   onPressed: () {
+      //     trackEvent(
+      //       category: 'button',
+      //       action: 'click-add-friend',
+      //       label: 'add-phenikaa-friend',
+      //     );
+      //     context
+      //         .read<PhotoboothBloc>()
+      //         .add(const PhotoCharacterToggled(character: Assets.phenikaa));
+      //   },
+      // ),
     ];
     return Stack(
       fit: StackFit.expand,

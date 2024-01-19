@@ -673,6 +673,11 @@ class Assets {
       path: 'assets/props/shapes/25_shapes_v1.png',
       size: Size(363, 821),
     ),
+    Asset(
+      name: '26_shapes_v1',
+      path: 'assets/props/shapes/26_shapes_v1.png',
+      size: Size(2480, 1700),
+    ),
   };
   static const props = {
     ...googleProps,
